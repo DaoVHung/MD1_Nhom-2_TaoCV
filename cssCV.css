@@ -1,0 +1,52 @@
+
+#wrapper{
+    height: 800px;
+    width: 700px;
+    border-radius: 1px;
+    background:slategray;
+    flex-basis: 60px;
+    font-family: Bahnschrift;
+}
+#main-content {
+    display: flex;
+}
+#content{
+    flex-basis: 60%;
+    height: 800px;
+    background: lightsteelblue;margin-right: 20px;
+
+}
+#sidebar {
+    font-min-size: medium;
+    margin-left: 20px;
+    flex-basis: 40%;
+}
+
+#button{
+ display: inline-block;
+    padding: 20px 5px;
+    border-radius: 20px;
+    background:cornflowerblue;
+    margin-left:-40px;
+}
+#icon{
+    font-size: 25px;
+    color: azure;
+    margin-left:1px}
+
+#button_2{
+    display: inline-block;
+    padding: 4px 2px;
+    border-radius: 50%;
+    background: cornflowerblue;
+    margin-left:-40px;
+    margin-top: 28px;
+}
+#button_3{  display: inline-block;
+    padding: 4px 4px;
+    border-radius: 50%;
+    background: cornflowerblue;
+    margin-left:-40px;
+    margin-top: 68px;
+}
+
